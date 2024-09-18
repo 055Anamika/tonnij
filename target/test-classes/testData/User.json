@@ -1,0 +1,25 @@
+
+{
+	 "Company_Name":"Jyoti Company",
+     "Building_No":"14/15",	
+	 "Street_Name":"test",
+	 "CITY":"New Delhi",
+	 "Postal_Code":"BN8711",
+	 "Companyph_No":"9745045760",
+	 "Company_Fax":"967674590",
+     "Company_GST":"1218676739099",	
+	 "Company_NSC":"51544084",
+	 "Company_WCB":"2017677978088",
+	 
+	 
+	 "Company_Logo":"C:/Users/dell/Downloads/nijomee_logo.png",
+	 "WCB_Docs":"C:/Users/dell/Downloads/gallery-3.jpg",
+     "COI_Docs":"C:/Users/dell/Downloads/gallery-3.jpg",	
+	 "NSC_Docs":"C:/Users/dell/Downloads/honor Phone.jpg",
+	 "Business_Certification":"C:/Users/dell/Downloads/gallery-3.jpg",
+	 
+	 
+	 "Prefix_Amount":"NTPL",
+	 "Serial_Number":"100",
+     "TAX_Rate":"2",	
+}

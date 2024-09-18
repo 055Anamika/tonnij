@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	 <listeners>
+        <listener class-name="extentREPORTS.ListenerClass" />
+    </listeners>
+  <test name="Customer Load Assigned To Driver">
+    <classes>
+     <class name="tests.CreateLoadTest">
+				<methods>
+					<include name="VerifyUserIsAbleToAddCustomerInfo" />
+					<include name="VerifyUserIsAbleToAddCustomerLoadInfo" />
+					<include name="VerifyUserIsAbleToAddCustomerOrderInfo" />
+					<include name="dispatchLoadToDriver" />
+
+				</methods>
+			</class>
+    </classes>
+  </test> 
+</suite> 

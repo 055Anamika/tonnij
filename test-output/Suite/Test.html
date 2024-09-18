@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 15 11:04:42 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>176 seconds (176957 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.DriverTest.AVerifyUserIsAbleToAddDriverUpdate()'><b>AVerifyUserIsAbleToAddDriverUpdate</b><br>Test class: tests.DriverTest</td>
+<td></td>
+<td>4</td>
+<td>tests.DriverTest@4dc27487</td></tr>
+<tr>
+<td title='tests.TrailerTest.AVerifyUserIsAbleToAddTrailer()'><b>AVerifyUserIsAbleToAddTrailer</b><br>Test class: tests.TrailerTest</td>
+<td></td>
+<td>17</td>
+<td>tests.TrailerTest@1f9e9475</td></tr>
+<tr>
+<td title='tests.TruckTest.AVerifyUserIsAbleToLogin()'><b>AVerifyUserIsAbleToLogin</b><br>Test class: tests.TruckTest</td>
+<td></td>
+<td>13</td>
+<td>tests.TruckTest@169bb4dd</td></tr>
+<tr>
+<td title='tests.CustomerTest.VerifyUserIsAbleToLogin()'><b>VerifyUserIsAbleToLogin</b><br>Test class: tests.CustomerTest</td>
+<td></td>
+<td>8</td>
+<td>tests.CustomerTest@3aa078fd</td></tr>
+<tr>
+<td title='tests.VendorTest.VerifyUserIsAbleToUpdateVendor()'><b>VerifyUserIsAbleToUpdateVendor</b><br>Test class: tests.VendorTest</td>
+<td></td>
+<td>6</td>
+<td>tests.VendorTest@d23e042</td></tr>
+<tr>
+<td title='tests.TrailerTest.AVerifyUserIsAbleTUpdatedTrailer()'><b>AVerifyUserIsAbleTUpdatedTrailer</b><br>Test class: tests.TrailerTest</td>
+<td></td>
+<td>8</td>
+<td>tests.TrailerTest@1f9e9475</td></tr>
+<tr>
+<td title='tests.CustomerTest.VerifyUserIsAbleToAddCustomer()'><b>VerifyUserIsAbleToAddCustomer</b><br>Test class: tests.CustomerTest</td>
+<td></td>
+<td>10</td>
+<td>tests.CustomerTest@3aa078fd</td></tr>
+<tr>
+<td title='tests.VendorTest.VerifyUserIsAbleToLogin()'><b>VerifyUserIsAbleToLogin</b><br>Test class: tests.VendorTest</td>
+<td></td>
+<td>9</td>
+<td>tests.VendorTest@d23e042</td></tr>
+<tr>
+<td title='tests.CustomerTest.VerifyUserIsAbleToUpdateCustomer()'><b>VerifyUserIsAbleToUpdateCustomer</b><br>Test class: tests.CustomerTest</td>
+<td></td>
+<td>5</td>
+<td>tests.CustomerTest@3aa078fd</td></tr>
+<tr>
+<td title='tests.DriverTest.AVerifyUserIsAbleToLogin()'><b>AVerifyUserIsAbleToLogin</b><br>Test class: tests.DriverTest</td>
+<td></td>
+<td>10</td>
+<td>tests.DriverTest@4dc27487</td></tr>
+<tr>
+<td title='tests.TruckTest.AVerifyUserIsAbleToUpdateTruck()'><b>AVerifyUserIsAbleToUpdateTruck</b><br>Test class: tests.TruckTest</td>
+<td></td>
+<td>6</td>
+<td>tests.TruckTest@169bb4dd</td></tr>
+<tr>
+<td title='tests.DriverTest.AVerifyUserIsAbleToAddDriver()'><b>AVerifyUserIsAbleToAddDriver</b><br>Test class: tests.DriverTest</td>
+<td></td>
+<td>29</td>
+<td>tests.DriverTest@4dc27487</td></tr>
+<tr>
+<td title='tests.VendorTest.VerifyUserIsAbleToAddVendor()'><b>VerifyUserIsAbleToAddVendor</b><br>Test class: tests.VendorTest</td>
+<td></td>
+<td>10</td>
+<td>tests.VendorTest@d23e042</td></tr>
+<tr>
+<td title='tests.TrailerTest.AVerifyUserIsAbleToLogin()'><b>AVerifyUserIsAbleToLogin</b><br>Test class: tests.TrailerTest</td>
+<td></td>
+<td>9</td>
+<td>tests.TrailerTest@1f9e9475</td></tr>
+<tr>
+<td title='tests.TruckTest.AVerifyUserIsAbleToAddTruck()'><b>AVerifyUserIsAbleToAddTruck</b><br>Test class: tests.TruckTest</td>
+<td></td>
+<td>16</td>
+<td>tests.TruckTest@169bb4dd</td></tr>
+</table><p>
+</body>
+</html>

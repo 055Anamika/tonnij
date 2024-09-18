@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-18T14:03:42 IST" name="Default suite" finished-at="2024-09-18T14:04:47 IST" duration-ms="64928">
+    <groups>
+    </groups>
+    <test started-at="2024-09-18T14:03:42 IST" name="Default test" finished-at="2024-09-18T14:04:47 IST" duration-ms="64928">
+      <class name="tests.CloseLoadScenariosTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.CloseLoadScenariosTest@145f66e3]" started-at="2024-09-18T14:03:42 IST" name="beforeSuite" finished-at="2024-09-18T14:03:42 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CloseLoadScenariosTest@145f66e3]" started-at="2024-09-18T14:03:42 IST" name="setup" finished-at="2024-09-18T14:03:53 IST" duration-ms="11317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyiClientIsAbleToCloseMyLoadToBoth()[pri:8, instance:tests.CloseLoadScenariosTest@145f66e3]" started-at="2024-09-18T14:03:53 IST" name="VerifyiClientIsAbleToCloseMyLoadToBoth" finished-at="2024-09-18T14:04:47 IST" duration-ms="53261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyiClientIsAbleToCloseMyLoadToBoth -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CloseLoadScenariosTest@145f66e3]" started-at="2024-09-18T14:04:47 IST" name="tearDown" finished-at="2024-09-18T14:04:47 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CloseLoadScenariosTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

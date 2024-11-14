@@ -3,8 +3,8 @@
   <groupId>Tonnij</groupId>
   <artifactId>TONNIJ_WEB</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <dependencies>
-	  
+  
+  <dependencies>	  
 	  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -12,9 +12,7 @@
 			<version>4.21.0</version>
 		</dependency>
 
-
-		<!--
-		https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+		<!--https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-core</artifactId>
@@ -27,20 +25,20 @@
 			<artifactId>rest-assured</artifactId>
 			<version>5.3.0</version>
 		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.5</version>
 		</dependency>
-		<!--
-		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+		
+		<!--https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
 			<version>5.8.0</version>
 		</dependency>
-
 
 		<dependency>
 			<groupId>cglib</groupId>
@@ -55,8 +53,8 @@
 			<artifactId>extentreports</artifactId>
 			<version>5.0.9</version>
 		</dependency>
-		<!--
-		https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+		
+		<!--https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
 		<dependency>
 			<groupId>com.googlecode.json-simple</groupId>
 			<artifactId>json-simple</artifactId>
@@ -69,13 +67,13 @@
 			<version>1.7</version>
 		</dependency>
 
-		<!--
-		https://mvnrepository.com/artifact/commons-configuration/commons-configuration -->
+		<!--https://mvnrepository.com/artifact/commons-configuration/commons-configuration -->
 		<dependency>
 			<groupId>commons-configuration</groupId>
 			<artifactId>commons-configuration</artifactId>
 			<version>1.10</version>
 		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>

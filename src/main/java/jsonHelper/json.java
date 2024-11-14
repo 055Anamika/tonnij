@@ -16,9 +16,7 @@ public class json {
     private static Object getTestDataJsonObject(String foldername, String fileName) {
         String path;
         if (foldername.equals("testdata"))
-            path = Paths
-                    .get(GenericMethods.getProjectRootDirectory(), "src", "test", "java", "testdata")
-                    .toString();
+            path = Paths.get(GenericMethods.getProjectRootDirectory(), "src", "test", "java", "testdata").toString();
         else
             path = Paths.get(GenericMethods.getProjectRootDirectory(), "src", "test", "java", "testdata", foldername).toString();
         String jsonPath = path + "/" + fileName + ".json";

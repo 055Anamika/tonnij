@@ -128,8 +128,7 @@ public class UserPage extends BasePage {
 			enterData(taxRate, TAXRate);
 			hardWait(1000);
 		    clickElement(addTaxClassButton);	
-		    hardWait(3000);
-		    
+		    hardWait(3000);	    
 
 		}
 		
@@ -148,9 +147,6 @@ public class UserPage extends BasePage {
 			hardWait(3000);
 			clickElement(submit);
 			hardWait(2000);
-
-
-		
 			
 		}
 

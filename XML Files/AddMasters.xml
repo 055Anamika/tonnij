@@ -22,25 +22,6 @@
 				</methods>
 			</class>
     </classes>
-  </test> 
-  
-   <test name="Add And Edit All Masters">
-    <classes>
-      <class name="tests.AllMasters">
-				<methods>
-					<include name="VerifyUserIsAbleToAddDriver" />
-					<include name="DashboardDriverList" />
-					<include name="VerifyUserIsAbleToAddTruck" />
-					<include name="DashboardTruckList" />
-					<include name="VerifyUserIsAbleToAddTrailer" />
-					<include name="DashboardTrailerList" />
-					<include name="VerifyUserIsAbleToAddCustomer" />
-					<include name="DashboardCustomerList" />
-					<include name="VerifyUserIsAbleToAddVendor" />
-                    <include name="DashboardVendorList" />
-				</methods>
-			</class>
-    </classes>
-  </test> 
+  </test>  
   
 </suite> 

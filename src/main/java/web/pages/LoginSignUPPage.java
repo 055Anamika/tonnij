@@ -28,7 +28,7 @@ public class LoginSignUPPage extends BasePage {
 	protected By signInHere = By.xpath("//a[normalize-space()='Sign in here']");
 
 	protected By signIn = By.xpath("//button[normalize-space()='Sign In']");
-	protected By profile = By.xpath("(//div[@class='d-flex align-items-center gap-2'])[1]");
+	protected By profile = By.cssSelector(".header-right--user.w-100.d-flex.align-items-center.justify-content-between.gap-2");
 	protected By logoutButton = By.xpath("//li[normalize-space()='Logout']");
 
 	public void signUP(String currentURL, String expectedURL) throws Exception {
@@ -47,7 +47,7 @@ public class LoginSignUPPage extends BasePage {
 	
 	public void registerTab(String FirstName, String LastName, String mail, String CellPhone, String Password,
 			String ConfirmPassword, String one, String two, String three, String four) {
-		clickElement(continuee);
+	//	clickElement(continuee);
 		hardWait(2000);
 		clickElement(register);
 		hardWait(4000);
@@ -76,7 +76,6 @@ public class LoginSignUPPage extends BasePage {
 //		enterData(email, mail);
 //		enterData(password, Password);
 		clickElement(signIn);
-
 	}
 
 	public void userLoginn(String mail, String Password) {
@@ -85,7 +84,6 @@ public class LoginSignUPPage extends BasePage {
 		enterData(email, mail);
 		enterData(password, Password);
 		clickElement(signIn);
-
 	}
 	
 	
@@ -95,7 +93,6 @@ public class LoginSignUPPage extends BasePage {
 		enterData(email, mail);
 		enterData(password, Password);
 		clickElement(signIn);
-
 	}
 
 	public void Admin_Login(String mail, String userPass) {
@@ -103,7 +100,6 @@ public class LoginSignUPPage extends BasePage {
 		enterData(email, mail);
 		enterData(password, userPass);
 		clickElement(signIn);
-
 	}
 
 	public void After_Logout_Admin_Login(String mail, String userPass) {
@@ -112,7 +108,7 @@ public class LoginSignUPPage extends BasePage {
 		hardWait(2000);
 		clickElement(logoutButton);
 		hardWait(2000);
-		navigateToURL("https://4tn5p340-4200.inc1.devtunnels.ms/auth/admin-login");
+		navigateToURL("https://web.tonnij.com/auth/admin-login");
 		hardWait(3000);
 		enterData(email, mail);
 		enterData(password, userPass);

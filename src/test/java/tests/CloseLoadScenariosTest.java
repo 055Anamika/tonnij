@@ -20,6 +20,7 @@ public class CloseLoadScenariosTest extends BaseTest {
 
 	@BeforeClass
 	public void setup() {
+		
 		driver.set(driverFactory.initialize());
 		login = new LoginSignUPPage(driver.get());
 		login.navigateToURL(URL);
@@ -31,9 +32,7 @@ public class CloseLoadScenariosTest extends BaseTest {
 	}
 
 	@Test(invocationCount = 1, priority = 9, enabled=false)
-	public void VerifyiClientIsAbleToCloseMyLoadOfVendor() throws Exception {
-		
-        
+	public void VerifyiClientIsAbleToCloseMyLoadOfVendor() throws Exception {       
 		load.MyLoad( CreateLoad.PICKUP_BUILDING_NUMBER, CreateLoad.PICKUP_CITY,
 				CreateLoad.PICKUP_POSTAL_CODE, CreateLoad.PICKUP_STREET_NAME, CreateLoad.DROP_NAME, CreateLoad.DUMP_POSTAL_CODE,
 				CreateLoad.DUMP_STREET_NAME,  CreateLoad.DUMP_BUILDING_NUMBER, CreateLoad.DUMP_CITY, CreateLoad.TRUCK_QUANTITY);
@@ -63,7 +62,7 @@ public class CloseLoadScenariosTest extends BaseTest {
 
 	}
 
-	@Test(invocationCount = 1, priority = 5, enabled = false)
+	@Test(invocationCount = 1, priority = 5, enabled = true)
 	public void VerifyiClientIsAbleToCloseCustomerLoadToVendor() throws Exception {
 		load.createLoadByDropdown(CreateLoad.PICKUP_BUILDING_NUMBER, CreateLoad.PICKUP_CITY,
 				CreateLoad.PICKUP_POSTAL_CODE, CreateLoad.PICKUP_STREET_NAME, CreateLoad.DROP_NAME,
@@ -113,7 +112,7 @@ public class CloseLoadScenariosTest extends BaseTest {
 
 	}
 
-	@Test(invocationCount = 1, priority = 8, enabled = true)
+	@Test(invocationCount = 1, priority = 8, enabled = false)
 	public void VerifyiClientIsAbleToCloseMyLoadToBoth() throws Exception {
 		load.MyLoad(CreateLoad.PICKUP_BUILDING_NUMBER, CreateLoad.PICKUP_CITY, CreateLoad.PICKUP_POSTAL_CODE,
 				CreateLoad.PICKUP_STREET_NAME, CreateLoad.DROP_NAME, CreateLoad.DUMP_POSTAL_CODE,

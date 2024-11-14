@@ -28,7 +28,7 @@ public class MyLoadTest extends BaseTest {
 
 	
 	
-	@Test(invocationCount = 1, priority = 7, enabled=false)
+	@Test(invocationCount = 1, priority = 7, enabled=true)
 	public void VerifyiClientIsAbleToAssignMyLoadToDriver() throws Exception {
 		load.MyLoad( CreateLoad.PICKUP_BUILDING_NUMBER, CreateLoad.PICKUP_CITY,
 				CreateLoad.PICKUP_POSTAL_CODE, CreateLoad.PICKUP_STREET_NAME, CreateLoad.DROP_NAME, CreateLoad.DUMP_POSTAL_CODE,
@@ -39,7 +39,7 @@ public class MyLoadTest extends BaseTest {
 			
 	}
 	
-	@Test(invocationCount = 1, priority = 8, enabled=false)
+	@Test(invocationCount = 1, priority = 8, enabled=true)
 	public void VerifyiClientIsAbleToAssignMyLoadToVendor() throws Exception {
 		load.MyLoad( CreateLoad.PICKUP_BUILDING_NUMBER, CreateLoad.PICKUP_CITY,
 				CreateLoad.PICKUP_POSTAL_CODE, CreateLoad.PICKUP_STREET_NAME, CreateLoad.DROP_NAME, CreateLoad.DUMP_POSTAL_CODE,
@@ -49,7 +49,7 @@ public class MyLoadTest extends BaseTest {
 	}
 	
 	
-	@Test(invocationCount = 1, priority = 9, enabled=false)
+	@Test(invocationCount = 1, priority = 9, enabled=true)
 	public void VerifyiClientIsAbleToAssignMyLoadToBoth() throws Exception {
 		load.MyLoad( CreateLoad.PICKUP_BUILDING_NUMBER, CreateLoad.PICKUP_CITY,
 				CreateLoad.PICKUP_POSTAL_CODE, CreateLoad.PICKUP_STREET_NAME, CreateLoad.DROP_NAME, CreateLoad.DUMP_POSTAL_CODE,

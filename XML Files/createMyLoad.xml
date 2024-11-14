@@ -9,7 +9,7 @@
     <classes>
       <class name="tests.CreateLoadTest">
 				<methods>
-					<include name="IsMyLoadTrue" />
+					<include name="VerifyiClientIsAbleToCreateTheirLoad" />
 				</methods>
 			</class>
     </classes>

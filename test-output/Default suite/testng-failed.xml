@@ -3,14 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.CloseLoadScenariosTest">
+      <class name="tests.UserTest">
         <methods>
-          <include name="VerifyiClientIsAbleToCloseCustomerLoadToVendor"/>
-          <include name="beforeSuite"/>
+          <include name="CVerifyUserIsAbleToUploadDocument"/>
+          <include name="BVerifyUserIsAbleToAddManager"/>
           <include name="setup"/>
+          <include name="DVerifyUserIsAbleToAddMasterSetting"/>
+          <include name="EVerifyUserIsAbleToTaxClass"/>
+          <include name="beforeSuite"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- tests.CloseLoadScenariosTest -->
+      </class> <!-- tests.UserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

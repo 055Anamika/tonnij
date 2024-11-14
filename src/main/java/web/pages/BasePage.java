@@ -37,7 +37,7 @@ public class BasePage extends BaseMethods {
 		protected By makeTrailer = By.xpath("//span[normalize-space()='Toyota']");
 	    protected By selectLastServiceDate = By.xpath("//span[normalize-space()='17']"); 
 		protected By nextServiceDueOn = By.xpath("//span[normalize-space()='31']");
-		protected By home = By.xpath("(//span[normalize-space()='Home'])[1]");
+		protected By home = By.xpath("//img[@class='pointer']");
 
 		
 
@@ -66,6 +66,7 @@ public class BasePage extends BaseMethods {
 		super(driver);
 
 	}
+	 
 	public void clickOnAddBtn()
 	{
 		

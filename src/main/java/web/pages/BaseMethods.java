@@ -170,7 +170,7 @@ public class BaseMethods {
 			WebDriverWait webDriverWait = new WebDriverWait(_driver, Duration.ofSeconds(timeout));
 			webDriverWait.until(ExpectedConditions.visibilityOf(element));
 		} catch (Exception e) {
-			if (!ignoreException) {
+			if (!ignoreException) { 
 				Assert.fail(e.getMessage());
 			}
 		}

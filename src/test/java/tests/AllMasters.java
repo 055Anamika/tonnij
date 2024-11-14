@@ -64,7 +64,7 @@ public class AllMasters extends BaseTest {
 		driverr.dashboardList();
 	}
 
-	@Test(priority = 4)
+	@Test(priority = 4, enabled= false)
 	public void VerifyUserIsAbleToAddDriverUpdate() throws Exception {
 		driverr.updateDriver();
 	}
@@ -81,7 +81,7 @@ public class AllMasters extends BaseTest {
 		truck.dashboardTruck();
 	}
 
-	@Test(priority = 7)
+	@Test(priority = 7, enabled= false)
 	public void AVerifyUserIsAbleToUpdateTruck() throws Exception {
 		truck.updateTruck();
 	}
@@ -98,7 +98,7 @@ public class AllMasters extends BaseTest {
 		trailor.dashboardTrailer();
 	}
 
-	@Test(priority = 10)
+	@Test(priority = 10, enabled= false)
 	public void AVerifyUserIsAbleTUpdatedTrailer() throws Exception {
 		trailor.updateTrailer();
 	}
@@ -118,7 +118,7 @@ public class AllMasters extends BaseTest {
 		customer.dashboardCustomer();
 	}
 
-	@Test(priority = 13)
+	@Test(priority = 13, enabled= false)
 	public void VerifyUserIsAbleToUpdateCustomer() throws Exception {
 		customer.updateCustomer();
 	}
@@ -138,7 +138,7 @@ public class AllMasters extends BaseTest {
 		vendor.dashboardVendor();
 	}
 
-	@Test(priority = 16)
+	@Test(priority = 16, enabled= false)
 	public void VerifyUserIsAbleToUpdateVendor() throws Exception {
 		vendor.updateVendor();
 

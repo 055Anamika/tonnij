@@ -1,29 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-18T14:03:42 IST" name="Default suite" finished-at="2024-09-18T14:04:47 IST" duration-ms="64928">
+  <suite started-at="2024-10-25T15:51:59 IST" name="Default suite" finished-at="2024-10-25T15:53:34 IST" duration-ms="95206">
     <groups>
     </groups>
-    <test started-at="2024-09-18T14:03:42 IST" name="Default test" finished-at="2024-09-18T14:04:47 IST" duration-ms="64928">
-      <class name="tests.CloseLoadScenariosTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.CloseLoadScenariosTest@145f66e3]" started-at="2024-09-18T14:03:42 IST" name="beforeSuite" finished-at="2024-09-18T14:03:42 IST" duration-ms="10" status="PASS">
+    <test started-at="2024-10-25T15:51:59 IST" name="Default test" finished-at="2024-10-25T15:53:34 IST" duration-ms="95206">
+      <class name="tests.UserTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.UserTest@18078bef]" started-at="2024-10-25T15:51:59 IST" name="beforeSuite" finished-at="2024-10-25T15:51:59 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CloseLoadScenariosTest@145f66e3]" started-at="2024-09-18T14:03:42 IST" name="setup" finished-at="2024-09-18T14:03:53 IST" duration-ms="11317" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UserTest@18078bef]" started-at="2024-10-25T15:51:59 IST" name="setup" finished-at="2024-10-25T15:52:02 IST" duration-ms="2422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyiClientIsAbleToCloseMyLoadToBoth()[pri:8, instance:tests.CloseLoadScenariosTest@145f66e3]" started-at="2024-09-18T14:03:53 IST" name="VerifyiClientIsAbleToCloseMyLoadToBoth" finished-at="2024-09-18T14:04:47 IST" duration-ms="53261" status="PASS">
+        <test-method signature="AVerifyUserIsAbleToLogin()[pri:1, instance:tests.UserTest@18078bef]" started-at="2024-10-25T15:52:02 IST" name="AVerifyUserIsAbleToLogin" finished-at="2024-10-25T15:52:23 IST" duration-ms="21297" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyiClientIsAbleToCloseMyLoadToBoth -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CloseLoadScenariosTest@145f66e3]" started-at="2024-09-18T14:04:47 IST" name="tearDown" finished-at="2024-09-18T14:04:47 IST" duration-ms="317" status="PASS">
+        </test-method> <!-- AVerifyUserIsAbleToLogin -->
+        <test-method signature="BVerifyUserIsAbleToAddManager()[pri:3, instance:tests.UserTest@18078bef]" started-at="2024-10-25T15:52:23 IST" name="BVerifyUserIsAbleToAddManager" finished-at="2024-10-25T15:52:39 IST" duration-ms="16170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BVerifyUserIsAbleToAddManager -->
+        <test-method signature="CVerifyUserIsAbleToUploadDocument()[pri:4, instance:tests.UserTest@18078bef]" started-at="2024-10-25T15:52:39 IST" name="CVerifyUserIsAbleToUploadDocument" finished-at="2024-10-25T15:52:57 IST" duration-ms="17720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CVerifyUserIsAbleToUploadDocument -->
+        <test-method signature="DVerifyUserIsAbleToAddMasterSetting()[pri:5, instance:tests.UserTest@18078bef]" started-at="2024-10-25T15:52:57 IST" name="DVerifyUserIsAbleToAddMasterSetting" finished-at="2024-10-25T15:52:59 IST" duration-ms="2324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DVerifyUserIsAbleToAddMasterSetting -->
+        <test-method signature="EVerifyUserIsAbleToTaxClass()[pri:6, instance:tests.UserTest@18078bef]" started-at="2024-10-25T15:52:59 IST" name="EVerifyUserIsAbleToTaxClass" finished-at="2024-10-25T15:53:09 IST" duration-ms="9738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EVerifyUserIsAbleToTaxClass -->
+        <test-method signature="FVerifyAdminLogin()[pri:7, instance:tests.UserTest@18078bef]" started-at="2024-10-25T15:53:09 IST" name="FVerifyAdminLogin" finished-at="2024-10-25T15:53:21 IST" duration-ms="12198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FVerifyAdminLogin -->
+        <test-method signature="GVerifyIfAdminIsAbleToApproveClient()[pri:8, instance:tests.UserTest@18078bef]" started-at="2024-10-25T15:53:21 IST" name="GVerifyIfAdminIsAbleToApproveClient" finished-at="2024-10-25T15:53:34 IST" duration-ms="12910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GVerifyIfAdminIsAbleToApproveClient -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTest@18078bef]" started-at="2024-10-25T15:53:34 IST" name="tearDown" finished-at="2024-10-25T15:53:34 IST" duration-ms="362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.CloseLoadScenariosTest -->
+      </class> <!-- tests.UserTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

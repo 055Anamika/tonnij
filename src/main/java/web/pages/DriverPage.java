@@ -83,7 +83,7 @@ public class DriverPage extends BasePage {
 		hardWait(1000);
 		clickElement(addDriverButton);
 		getTostMessage();
-		hardWait(5000);
+		hardWait(2000);
 
 	}
 

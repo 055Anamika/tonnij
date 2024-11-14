@@ -19,7 +19,7 @@ public class CloseLoad extends BasePage {
 	protected By unit1 = By.xpath("(//input[@id='unit_number'])[1]");
 	protected By unit2 = By.xpath("(//input[@id='unit_number'])[2]");
 	protected By ticket1 = By.xpath("(//input[@id='ticket'])[1]");
-	protected By ticket2 = By.xpath("(//input[@id='ticket'])[2]");
+	protected By ticket2 = By.xpath("(//input[@id='ticket'])[4]");
 	protected By uploadTicket = By.xpath("//input[@type='file']");
 	protected By closeOrder = By.xpath("//button[normalize-space()='Close Order']");
 	protected By actionButton = By.xpath("(//button[@class='mat-mdc-menu-trigger btn'])[1]");

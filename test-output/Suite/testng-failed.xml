@@ -9,11 +9,11 @@
       <class name="tests.AllMasters">
         <methods>
           <include name="VerifyUserIsAbleToAddCustomer"/>
-          <include name="VerifyUserIsAbleToAddDriver"/>
           <include name="VerifyUserIsAbleToAddVendor"/>
           <include name="setup"/>
           <include name="VerifyUserIsAbleToAddTruck"/>
           <include name="beforeSuite"/>
+          <include name="VerifyUserIsAbleToAddTrailer"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- tests.AllMasters -->

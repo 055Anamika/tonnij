@@ -42,7 +42,7 @@ public class CreateLoadTest extends BaseTest {
 				CreateLoad.DUMP_STREET_NAME, CreateLoad.DUMP_BUILDING_NUMBER, CreateLoad.DUMP_CITY,
 				CreateLoad.TRUCK_QUANTITY);
 		
-		softAssert.assertEquals(basePage.getTostMessage(), "Truck added successfully", "Message do not match" );
+		softAssert.assertEquals(basePage.getTostMessage(), "Load added successfully", "Message do not match" );
 		softAssert.assertAll();
 
 	}
@@ -59,6 +59,9 @@ public class CreateLoadTest extends BaseTest {
 
 		load.CustomerOrderInfo(CreateLoad.AGREED_RATE, CreateLoad.TRUCK_QUANTITY, CreateLoad.PO_NUMBER,
 				CreateLoad.CUSTOMER_CELLPHONE_NO);
+		
+		softAssert.assertEquals(basePage.getTostMessage(), "Load added successfully", "Message do not match" );
+		softAssert.assertAll();
 	}
 
 	@Test(invocationCount = 1, priority = 3, enabled = false)
@@ -71,6 +74,8 @@ public class CreateLoadTest extends BaseTest {
 		load.CustomerOrderInfo(CreateLoad.AGREED_RATE, CreateLoad.TRUCK_QUANTITY, CreateLoad.PO_NUMBER,
 				CreateLoad.CUSTOMER_CELLPHONE_NO);
 
+		softAssert.assertEquals(basePage.getTostMessage(), "Load added successfully", "Message do not match" );
+		softAssert.assertAll();
 	}
 
 	@Test(priority = 4, enabled = false)
@@ -86,6 +91,7 @@ public class CreateLoadTest extends BaseTest {
 		load.dispatchBoard(CreateLoad.REMARKS);
 	}
 
+	
 	@Test(invocationCount = 1, priority = 5, enabled = false)
 	public void VerifyiClientIsAbleToAssignCustomerLoadToVendor() throws Exception {
 		load.createLoadByDropdown(CreateLoad.PICKUP_BUILDING_NUMBER, CreateLoad.PICKUP_CITY,
